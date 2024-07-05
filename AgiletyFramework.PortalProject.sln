@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.WebApi", "AgiletyFramework.WebApi\AgiletyFramework.WebApi.csproj", "{DD93335E-6138-4408-B57E-4A6D1F18986D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.WebCore1", "AgiletyFramework.WebCore1\AgiletyFramework.WebCore1.csproj", "{5E9CE934-977F-484E-99E8-ADCD5AEF358D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.DbModels", "AgiletyFramework.DbModels\AgiletyFramework.DbModels.csproj", "{12D51429-1111-4673-A200-2D4197D738CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.InitDatabase1", "AgiletyFramework.InitDatabase1\AgiletyFramework.InitDatabase1.csproj", "{1865A7A5-B8AA-4B1F-B53D-082CB17C56DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.BusinessServices", "AgiletyFramework.BusinessServices\AgiletyFramework.BusinessServices.csproj", "{BD4F4237-4A64-40A8-9E7E-9BBCE2997D9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.IBusinessServices", "AgiletyFramework.IBusinessServices\AgiletyFramework.IBusinessServices.csproj", "{889DF6C5-9403-49E3-844F-814BA9AC4098}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01业务逻辑层", "01业务逻辑层", "{8C135D65-A4EE-46AE-A96A-E007DB4D7ED3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.AutofacAOP", "AgiletyFramework.AutofacAOP\AgiletyFramework.AutofacAOP.csproj", "{CE53522F-80F2-4FA6-9269-EF24CDDBCAE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.Commons", "AgiletyFramework.Commons\AgiletyFramework.Commons.csproj", "{E91E231E-9DDC-4219-8C18-D49B02799F81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.ModelDto", "AgiletyFramework.ModelDto\AgiletyFramework.ModelDto.csproj", "{51BD48EA-AB7B-4771-9A97-99EE23CAD2A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02公共服务层", "02公共服务层", "{D4597E0D-D5E7-4399-93C2-C678A26D0F89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03实体模型层", "03实体模型层", "{79655A63-1612-415C-B638-908090FACBD2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00Portal前端", "00Portal前端", "{AD87A560-091F-4991-97A9-1D63A1E997D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.PortalUI", "AgiletyFramework.PortalUI\AgiletyFramework.PortalUI.csproj", "{9200A115-4ACB-48C4-AEA8-07EC8536F1BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgiletyFramework.AuthenticationApi", "AgiletyFramework.AuthenticationApi\AgiletyFramework.AuthenticationApi.csproj", "{FAD91AE9-72DE-43CA-85D8-992835D0F465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD93335E-6138-4408-B57E-4A6D1F18986D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD93335E-6138-4408-B57E-4A6D1F18986D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD93335E-6138-4408-B57E-4A6D1F18986D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD93335E-6138-4408-B57E-4A6D1F18986D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9CE934-977F-484E-99E8-ADCD5AEF358D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9CE934-977F-484E-99E8-ADCD5AEF358D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9CE934-977F-484E-99E8-ADCD5AEF358D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9CE934-977F-484E-99E8-ADCD5AEF358D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D51429-1111-4673-A200-2D4197D738CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D51429-1111-4673-A200-2D4197D738CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D51429-1111-4673-A200-2D4197D738CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D51429-1111-4673-A200-2D4197D738CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1865A7A5-B8AA-4B1F-B53D-082CB17C56DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1865A7A5-B8AA-4B1F-B53D-082CB17C56DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1865A7A5-B8AA-4B1F-B53D-082CB17C56DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1865A7A5-B8AA-4B1F-B53D-082CB17C56DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4F4237-4A64-40A8-9E7E-9BBCE2997D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4F4237-4A64-40A8-9E7E-9BBCE2997D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4F4237-4A64-40A8-9E7E-9BBCE2997D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4F4237-4A64-40A8-9E7E-9BBCE2997D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889DF6C5-9403-49E3-844F-814BA9AC4098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889DF6C5-9403-49E3-844F-814BA9AC4098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889DF6C5-9403-49E3-844F-814BA9AC4098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889DF6C5-9403-49E3-844F-814BA9AC4098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE53522F-80F2-4FA6-9269-EF24CDDBCAE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE53522F-80F2-4FA6-9269-EF24CDDBCAE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE53522F-80F2-4FA6-9269-EF24CDDBCAE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE53522F-80F2-4FA6-9269-EF24CDDBCAE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91E231E-9DDC-4219-8C18-D49B02799F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91E231E-9DDC-4219-8C18-D49B02799F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91E231E-9DDC-4219-8C18-D49B02799F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91E231E-9DDC-4219-8C18-D49B02799F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BD48EA-AB7B-4771-9A97-99EE23CAD2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BD48EA-AB7B-4771-9A97-99EE23CAD2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BD48EA-AB7B-4771-9A97-99EE23CAD2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BD48EA-AB7B-4771-9A97-99EE23CAD2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9200A115-4ACB-48C4-AEA8-07EC8536F1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9200A115-4ACB-48C4-AEA8-07EC8536F1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9200A115-4ACB-48C4-AEA8-07EC8536F1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9200A115-4ACB-48C4-AEA8-07EC8536F1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD91AE9-72DE-43CA-85D8-992835D0F465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD91AE9-72DE-43CA-85D8-992835D0F465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD91AE9-72DE-43CA-85D8-992835D0F465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD91AE9-72DE-43CA-85D8-992835D0F465}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E9CE934-977F-484E-99E8-ADCD5AEF358D} = {D4597E0D-D5E7-4399-93C2-C678A26D0F89}
+		{12D51429-1111-4673-A200-2D4197D738CC} = {79655A63-1612-415C-B638-908090FACBD2}
+		{BD4F4237-4A64-40A8-9E7E-9BBCE2997D9C} = {8C135D65-A4EE-46AE-A96A-E007DB4D7ED3}
+		{889DF6C5-9403-49E3-844F-814BA9AC4098} = {8C135D65-A4EE-46AE-A96A-E007DB4D7ED3}
+		{CE53522F-80F2-4FA6-9269-EF24CDDBCAE6} = {D4597E0D-D5E7-4399-93C2-C678A26D0F89}
+		{E91E231E-9DDC-4219-8C18-D49B02799F81} = {D4597E0D-D5E7-4399-93C2-C678A26D0F89}
+		{51BD48EA-AB7B-4771-9A97-99EE23CAD2A9} = {79655A63-1612-415C-B638-908090FACBD2}
+		{9200A115-4ACB-48C4-AEA8-07EC8536F1BA} = {AD87A560-091F-4991-97A9-1D63A1E997D0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBE0D0BF-4018-4318-9F3D-5F79C6EB7C4F}
+	EndGlobalSection
+EndGlobal
